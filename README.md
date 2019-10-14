@@ -6,7 +6,7 @@
 本程序目前仅在win下使用。理论上源码支持其他操作系统。  
 
 ### 如何使用
-代码环境,python3.6
+代码环境,python3.6  
 开发虚拟环境软件为：virtualenvwrapper,使用其他虚拟环境管理的，需要修改start.bat中的进入虚拟环境的语句。   
 虚拟环境名为：monitor  
 切换到虚拟环境，然后安装psutil包   
