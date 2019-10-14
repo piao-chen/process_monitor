@@ -1,0 +1,41 @@
+Sat, 12 Oct 2019 15:31:13 ps_monitor.py[line:38] INFO 重启程序.............
+Sat, 12 Oct 2019 15:43:32 ps_monitor.py[line:47] INFO 重启程序.............
+Sat, 12 Oct 2019 16:03:40 ps_monitor.py[line:56] INFO 重启程序.............
+Sat, 12 Oct 2019 16:03:40 ps_monitor.py[line:56] INFO 重启程序.............
+Sat, 12 Oct 2019 16:04:16 ps_monitor.py[line:56] INFO 重启程序.............
+Sat, 12 Oct 2019 16:05:45 ps_monitor.py[line:55] INFO 重启程序.............
+Sat, 12 Oct 2019 16:09:11 ps_monitor.py[line:55] INFO restart PotPlayerMini.exe
+Sat, 12 Oct 2019 16:19:50 ps_monitor.py[line:55] INFO restart aria2c.exe
+Sat, 12 Oct 2019 16:22:05 ps_monitor.py[line:55] INFO restart aria2c.exe
+Sat, 12 Oct 2019 16:23:38 ps_monitor.py[line:55] INFO restart aria2c.exe
+Sat, 12 Oct 2019 16:24:12 ps_monitor.py[line:55] INFO restart aria2c.exe
+Sat, 12 Oct 2019 16:29:21 ps_monitor.py[line:55] INFO restart aria2c.exe
+Sat, 12 Oct 2019 17:22:48 ps_monitor.py[line:57] INFO restart PotPlayerMini.exe
+Sat, 12 Oct 2019 17:24:48 ps_monitor.py[line:57] INFO restart PotPlayerMini.exe
+Sat, 12 Oct 2019 17:25:48 ps_monitor.py[line:57] INFO restart PotPlayerMini.exe
+Sat, 12 Oct 2019 17:32:52 ps_monitor.py[line:54] INFO restart frpc.exe
+Sat, 12 Oct 2019 17:32:52 ps_monitor.py[line:54] INFO restart PotPlayerMini.exe
+Sat, 12 Oct 2019 17:33:57 ps_monitor.py[line:54] INFO restart frpc.exe
+Sat, 12 Oct 2019 17:33:57 ps_monitor.py[line:54] INFO restart PotPlayerMini.exe
+Sat, 12 Oct 2019 17:34:27 ps_monitor.py[line:54] INFO restart frpc.exe
+Sat, 12 Oct 2019 17:34:57 ps_monitor.py[line:54] INFO restart frpc.exe
+Sat, 12 Oct 2019 17:35:28 ps_monitor.py[line:54] INFO restart frpc.exe
+Sat, 12 Oct 2019 17:35:28 ps_monitor.py[line:54] INFO restart PotPlayerMini.exe
+Sat, 12 Oct 2019 17:42:07 ps_monitor.py[line:54] INFO restart frpc.exe
+Sat, 12 Oct 2019 17:42:07 ps_monitor.py[line:54] INFO restart PotPlayerMini.exe
+Sat, 12 Oct 2019 17:44:50 ps_monitor.py[line:54] INFO restart frpc.exe
+Sat, 12 Oct 2019 17:44:50 ps_monitor.py[line:54] INFO restart PotPlayerMini.exe
+Sat, 12 Oct 2019 17:45:20 ps_monitor.py[line:54] INFO restart frpc.exe
+Sat, 12 Oct 2019 18:02:39 ps_monitor.py[line:54] INFO restart frpc.exe
+Mon, 14 Oct 2019 10:19:00 ps_monitor.py[line:67] INFO restart frpc.exe
+Mon, 14 Oct 2019 10:19:00 ps_monitor.py[line:67] INFO restart aria2c.exe
+Mon, 14 Oct 2019 10:22:00 ps_monitor.py[line:67] INFO restart frpc.exe
+Mon, 14 Oct 2019 10:22:01 ps_monitor.py[line:67] INFO restart aria2c.exe
+Mon, 14 Oct 2019 10:28:04 ps_monitor.py[line:68] INFO restart frpc.exe
+Mon, 14 Oct 2019 10:28:04 ps_monitor.py[line:68] INFO restart aria2c.exe
+Mon, 14 Oct 2019 10:29:04 ps_monitor.py[line:68] INFO restart frpc.exe
+Mon, 14 Oct 2019 10:29:04 ps_monitor.py[line:68] INFO restart aria2c.exe
+Mon, 14 Oct 2019 10:30:04 ps_monitor.py[line:68] INFO restart frpc.exe
+Mon, 14 Oct 2019 10:31:04 ps_monitor.py[line:68] INFO restart frpc.exe
+Mon, 14 Oct 2019 10:31:04 ps_monitor.py[line:68] INFO restart aria2c.exe
+Mon, 14 Oct 2019 10:32:04 ps_monitor.py[line:68] INFO restart frpc.exe
