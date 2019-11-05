@@ -28,11 +28,10 @@ class Monitor:
 
     # 通过JSON的方式读取配置文件
     def read_config_json(self):
-        with open('config.json','r') as f:
+        with open('config.json', 'r') as f:
             config_data = json.load(f)
             self.interval_time = config_data['interval_sec']
             for program in config_data['program_list']:
-                # print(cf.get(sec, 'name'), cf.get(sec, 'cmd'))
                 self.process_dic[program['name']] = {'name': program['name'],'path': program['path'], 'cmd': program['cmd'], 'status': 0}
 
     # 执行

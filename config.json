@@ -1,5 +1,5 @@
 {
-	"interval_sec": 60,
+	"interval_sec": 70,
 	"program_list": [
 		{
 			"name": "frpc.exe",
