@@ -1,12 +1,15 @@
 {
 	"interval_sec": 60,
-	"program_list": [{
+	"program_list": [
+		{
 			"name": "frpc.exe",
-			"cmd": "C:/soft/frp_0.9.3_windows_amd64/frpc.exe -c C:/soft/frp_0.9.3_windows_amd64/frpc.ini"
+			"path": "C:/soft/frp_0.9.3_windows_amd64",
+			"cmd": "frpc.exe -c frpc.ini"
 		},
 		{
 			"name": "aria2c.exe",
-			"cmd": "C:/soft/aria2/aria2c.exe --conf-path=C:/soft/aria2/config.conf"
+			"path":"C:/soft/aria2",
+			"cmd": "aria2c.exe --conf-path=config.conf"
 		}
 	]
 }

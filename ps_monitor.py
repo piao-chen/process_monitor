@@ -6,6 +6,7 @@ import configparser
 import sched
 import time
 import json
+import traceback
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
@@ -32,8 +33,9 @@ class Monitor:
             self.interval_time = config_data['interval_sec']
             for program in config_data['program_list']:
                 # print(cf.get(sec, 'name'), cf.get(sec, 'cmd'))
-                self.process_dic[program['name']] = {'name': program['name'], 'cmd': program['cmd'], 'status': 0}
+                self.process_dic[program['name']] = {'name': program['name'],'path': program['path'], 'cmd': program['cmd'], 'status': 0}
 
+    # 执行
     def execute(self):
         # 获取当前计算机的pid
         self.process_system = list(psutil.process_iter())
@@ -52,10 +54,17 @@ class Monitor:
         # 根据每个进程的状态，确定要不要执行cmd
         for key in self.process_dic:
             if self.process_dic[key]['status'] == 0:  # 进程不存在，重新启动程序
-                cmd = self.process_dic[key]['cmd']
-                os.popen(cmd)
-                logging.info("restart {name}".format(name=key))
-
+                try:
+                    path = self.process_dic[key]['path']
+                    cmd = self.process_dic[key]['cmd']
+                    # 切换目录
+                    os.chdir(path)
+                    # 执行命令
+                    os.popen(cmd)
+                    logging.info("restart {name}".format(name=key))
+                except:
+                    logging.exception("restart {name} error".format(name=key))
+                    traceback.print_exc()
         return 0
 
 
