@@ -8,8 +8,8 @@
 ### 如何使用  
 ##### 直接下载exe文件：  
 度盘分享：  
-链接：https://pan.baidu.com/s/1CR8hWgbdz98kXgIeNVon_Q   
-提取码：95v9   
+链接：https://pan.baidu.com/s/1o1tsKUvRmA0U71r9phjMig 
+提取码：8vfj 
 
 ##### 代码运行：
 代码环境,python3.6  
@@ -26,7 +26,8 @@ interval_sec 每隔多少秒检测一次
 
 program_list 需要检测的程序列表  
 每个程序配置有两个字段，  
-name:进程名，要跟系统进程列表中的一致     
+name:进程名，要跟系统进程列表中的一致，根据此来判断进程是否存在于系统进程列表中
+name:路径名，应用文件所在的路径
 cmd:启动该程序的命令。程序检测发现系统中不存在该进程，使用该字段的值进行启动该进程。  
 
 具体参照自带的配置实例。  
